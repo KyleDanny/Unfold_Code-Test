@@ -1,116 +1,119 @@
+
 .container {
-  padding: 0 2rem;
+  display: flex;
+  /* position: relative; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.image1_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2%;
 }
 
-.footer {
+.container div:nth-child(2) {
+  margin-top: 1em;
+}
+
+.image1 {
+  border-radius: 2%;
+}
+
+.infoBox1 {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 300px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.infoBox1_title {
+  margin-bottom: 0px;
+  line-height: 0.9;
+  font-size: 1.3em;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.infoBox1_description {
+  color: grey;
   text-align: center;
+  font-size: .9em;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.infoBox1_description p {
+  margin: 0;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
+.buttonEnlarge {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  font-size: 2em;
+  color: white;
+  background-color: black; 
+  padding: .3em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 1em;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+/* features */
+
+.container2 {
+  /* max-width: 500px;
+  max-height: 800px; */
+  width: 100%;
+  height: 100vh;
+  background-image: url('/assets/sophie-keen.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.btn {
+  position: absolute;
+  z-index: 1;
+  font-size: 3em;
+  color: white;
+  padding: .5em;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.infoBox2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 2em;
+  color: white;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.infoBox2_title {
+  font-size: 2em;
+  width: 50%;
+  margin-left: 1.5em;
+  line-height: 0.9;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.infoBox2_description {
+  display: flex;
+  font-size: 1.2em;
+  width: 100%;
+  margin-top: -2.5em;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.infoBox2_author {
+  width: 50%;
+  margin-left: 2.5em;
 }
+
+.infoBox2_comments {
+  text-align: right;
+  width: 50%;
+  margin-right: 2.5em;
+} 
