@@ -16,7 +16,7 @@ npm run dev
 ```
 
 After installing dependencies with ```npm install```, start dev server with ```npm run dev``` which will launch the site in the default browser.
-It is designed as mobile first, but function as desktop too. 
+It is designed as mobile first, but functional for desktop too. 
 
 Alternatively: demo (link)
 
@@ -26,8 +26,13 @@ Alternatively: demo (link)
 - FontAwesome
 - Deployment via Vercel
 
-## Reflection 
-- *write my reflection here*
+## Reflections 
+This was a fun assignment. 
+
+My biggest challenge for this assigment was that I had not worked with Next.js or Framer Motion prior to this. Howver, due to Next.js being a development framework built on React, it took very little time to familiarize myself with the basics. 
+
+I'm mostly happy with the result. The majority of the code is relatively well organised. 
+
 
 #### Deploy on Vercel
 
