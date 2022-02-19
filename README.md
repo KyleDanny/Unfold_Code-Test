@@ -1,8 +1,8 @@
 # UNFOLD Code Test
 
-Task 1: https://codepen.io/KyleDanny/pen/MWOQybe (fetchFromAPI Refactor)
-Task 2: https://codepen.io/KyleDanny/pen/LYOQzKg (Form Validator) 
-Task 3: Page Transition (using Next.js && Framer Motion) && deployment demo:
+- Task 1: https://codepen.io/KyleDanny/pen/MWOQybe (fetchFromAPI Refactor)
+- Task 2: https://codepen.io/KyleDanny/pen/LYOQzKg (Form Validator) 
+- Task 3: Page Transition (using Next.js && Framer Motion) && deployment demo:
 
 Additional: Reflection 
 
