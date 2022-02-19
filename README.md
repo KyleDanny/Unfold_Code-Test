@@ -2,7 +2,7 @@
 
 - Task 1: https://codepen.io/KyleDanny/pen/MWOQybe (fetchFromAPI Refactor)
 - Task 2: https://codepen.io/KyleDanny/pen/LYOQzKg (Form Validator) 
-- Task 3: Page Transition (using Next.js && Framer Motion) && deployment demo:
+- Task 3: Page Transition (using Next.js && Framer Motion)
 
 Additional: Reflection 
 
@@ -15,7 +15,10 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After installing dependencies with npm install, start dev server with npm run dev which will launch the site in the default browser.
+It is designed as mobile first, but function as desktop too. 
+
+Alternatively: demo (link)
 
 ## Stack
 - Next.js (& React)
