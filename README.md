@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-After installing dependencies with npm install, start dev server with npm run dev which will launch the site in the default browser.
+After installing dependencies with ```npm install```, start dev server with ```npm run dev``` which will launch the site in the default browser.
 It is designed as mobile first, but function as desktop too. 
 
 Alternatively: demo (link)
