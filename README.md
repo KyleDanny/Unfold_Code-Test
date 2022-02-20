@@ -18,7 +18,7 @@ npm run dev
 After installing dependencies with ```npm install```, start dev server with ```npm run dev``` which will launch the site in the default browser.
 It is designed as mobile first, but functional for desktop too. 
 
-Alternatively: demo (link)
+Alternatively: [demo](https://unfold-code-test-kyledanny.vercel.app/)
 
 ## Stack
 - Next.js (& React)
