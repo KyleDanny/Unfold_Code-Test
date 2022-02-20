@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <AnimateSharedLayout>
       <Component {...pageProps} />
-    </ AnimateSharedLayout>
+    </AnimateSharedLayout>
   )
 }
 
