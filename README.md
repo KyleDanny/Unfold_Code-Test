@@ -29,15 +29,12 @@ Alternatively: [demo](https://unfold-code-test-kyledanny.vercel.app/)
 ## Reflections 
 This was a fun assignment. 
 
-For the first 2 assignments on code pen, I refactored code using newer es6 features and using async await instead of promises. A little syntactic sugar always tastes good! I implemented a try catch and additional error handling respectively. 
+For the first 2 assignments on CodePen, I refactored code using newer es6 features and async await instead of promises. A little syntactic sugar always tastes good! I also implemented a try catch and additional error handling respectively. 
 
 My biggest challenge for this assigment was that I had not worked with Next.js or Framer Motion prior to this. However, due to Next.js being a development framework built on top of React, it took very little time to familiarize myself with the basics. 
 
-I'm mostly happy with the result. The majority of the code is relatively well organised. 
+The majority of the code is relatively well organised using common naming conventions and keeping code as modular as possible. I'm happy with the result and enjoyed learning Next.js, as well as Framer Motion - which in comparison to alternative animation libraries uses real-world physics resulting in a more 'life-like' animated experience for the user. 
 
+I would have liked to have implemented testing. I think with a bit more time using the framework, I would've taken a TDD approach. This would've enforced a clean structure with any logic broken into easily testible functions. 
 
-#### Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy Monday :)
