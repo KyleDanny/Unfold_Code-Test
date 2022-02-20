@@ -26,7 +26,7 @@ Alternatively: [demo](https://unfold-code-test-kyledanny.vercel.app/)
 - FontAwesome
 - Deployment via Vercel
 
-## Reflections 
+## Reflection
 This was a fun assignment. 
 
 For the first 2 assignments on CodePen, I refactored code using newer es6 features and async await instead of promises. A little syntactic sugar always tastes good! I also implemented a try catch and additional error handling respectively. 
