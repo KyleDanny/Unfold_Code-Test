@@ -29,7 +29,9 @@ Alternatively: demo (link)
 ## Reflections 
 This was a fun assignment. 
 
-My biggest challenge for this assigment was that I had not worked with Next.js or Framer Motion prior to this. Howver, due to Next.js being a development framework built on React, it took very little time to familiarize myself with the basics. 
+For the first 2 assignments on code pen, I refactored code using newer es6 features and using async await instead of promises. A little syntactic sugar always tastes good! I implemented a try catch and additional error handling respectively. 
+
+My biggest challenge for this assigment was that I had not worked with Next.js or Framer Motion prior to this. However, due to Next.js being a development framework built on top of React, it took very little time to familiarize myself with the basics. 
 
 I'm mostly happy with the result. The majority of the code is relatively well organised. 
 
