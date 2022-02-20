@@ -1,33 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UNFOLD Code Test
+
+- Task 1: https://codepen.io/KyleDanny/pen/xxPWrda (fetchFromAPI Refactor)
+- Task 2: https://codepen.io/KyleDanny/pen/MWOVooE (Form Validator) 
+- Task 3: Page Transition (using Next.js && Framer Motion)
+
+Additional: Reflection 
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After installing dependencies with ```npm install```, start dev server with ```npm run dev``` which will launch the site in the default browser.
+It is designed as mobile first, but functional for desktop too. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Alternatively: demo (link)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Stack
+- Next.js (& React)
+- Framer Motion
+- FontAwesome
+- Deployment via Vercel
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Reflections 
+This was a fun assignment. 
 
-## Learn More
+For the first 2 assignments on code pen, I refactored code using newer es6 features and using async await instead of promises. A little syntactic sugar always tastes good! I implemented a try catch and additional error handling respectively. 
 
-To learn more about Next.js, take a look at the following resources:
+My biggest challenge for this assigment was that I had not worked with Next.js or Framer Motion prior to this. However, due to Next.js being a development framework built on top of React, it took very little time to familiarize myself with the basics. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm mostly happy with the result. The majority of the code is relatively well organised. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+#### Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
